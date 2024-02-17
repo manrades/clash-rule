@@ -327,7 +327,6 @@ payload:
   - DOMAIN-SUFFIX,dtci.technology
   - DOMAIN-SUFFIX,dtvce.com
   - DOMAIN-SUFFIX,dzcdn.net
-  - DOMAIN-SUFFIX,e-hentai.org
   - DOMAIN-SUFFIX,eater.com
   - DOMAIN-SUFFIX,edge.api.brightcove.com
   - DOMAIN-SUFFIX,edgedatg.com
@@ -343,7 +342,6 @@ payload:
   - DOMAIN-SUFFIX,espncdn.com
   - DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net
   - DOMAIN-SUFFIX,espnqa.com
-  - DOMAIN-SUFFIX,exhentai.org
   - DOMAIN-SUFFIX,ext-twitch.tv
   - DOMAIN-SUFFIX,f1esports.com
   - DOMAIN-SUFFIX,f1manager.com
