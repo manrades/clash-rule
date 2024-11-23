@@ -1,0 +1,11 @@
+# NAME: Game-JX3
+# UPDATED: 2024-01-30 02:53:44
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 1
+# IP-CIDR: 2
+# TOTAL: 4
+payload:
+  - DOMAIN,jx3.seasunwbl.com
+  - DOMAIN-SUFFIX,xoyo.com
+  - IP-CIDR,109.244.61.0/24
+  - IP-CIDR,125.88.195.0/24
