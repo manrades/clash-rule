@@ -2,5 +2,6 @@
 # UPDATED: 2025-03-10 19:38:00
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
+payload:
   - DOMAIN-SUFFIX,dlsite.com
   - DOMAIN-SUFFIX,dlsite.jp
