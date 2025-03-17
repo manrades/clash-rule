@@ -8,5 +8,4 @@ payload:
   - DOMAIN,mypikpak.net
   - DOMAIN,user.mypikpak.com
   - DOMAIN,access.mypikpak.com
-  - DOMAIN,api-drive.mypikpak.com,DIRECT
-  - DOMAIN-KEYWORD,dl-a10b-,DIRECT
+  - DOMAIN,access.pikpakdrive.com
