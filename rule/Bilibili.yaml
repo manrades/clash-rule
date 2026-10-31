@@ -23,10 +23,9 @@ payload:
   - IP-CIDR,203.107.1.65/32,no-resolve
   - IP-CIDR,203.107.1.66/32,no-resolve
 # 内容：Bilibili 哔哩哔哩
-# 数量：23条
-  - USER-AGENT,Bilibili*
-  - USER-AGENT,bili*
-  - USER-AGENT,bili-inter*
+# Mihomo does not support USER-AGENT rules; Bilibili routing is covered by
+# the domain rules below.
+# 数量：20条
   - DOMAIN,apiintl.biliapi.net
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,acg.tv

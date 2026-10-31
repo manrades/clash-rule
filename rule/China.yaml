@@ -527,15 +527,24 @@ payload:
 # bt
   - DOMAIN-SUFFIX,smtp
   - DOMAIN-KEYWORD,aria2
-  - URL-REGEX,(Subject|HELO|SMTP)
-  - URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
-  - URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
-  - URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
+# URL-REGEX is unsupported by Mihomo. These domain-based rules preserve the
+# original Baidu/360/Xunlei routing intent without inspecting request URLs.
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,n.shifen.com
+  - DOMAIN-SUFFIX,360.cn
+  - DOMAIN-SUFFIX,360.com
+  - DOMAIN-SUFFIX,so.com
+  - DOMAIN-SUFFIX,qihoo.com
+  - DOMAIN-SUFFIX,360safe.com
+  - DOMAIN-SUFFIX,qhimg.com
+  - DOMAIN-SUFFIX,360totalsecurity.com
+  - DOMAIN-SUFFIX,yunpan.cn
+  - DOMAIN-SUFFIX,yunpan.com
 # XunLei
-  - URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+  - DOMAIN-KEYWORD,xunlei
+  - DOMAIN-KEYWORD,thunder
   - PROCESS-NAME,DownloadService.exe
 # 360
-  - URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
 # Tencent Weiyun
   - PROCESS-NAME,Weiyun.exe
 #Baidu disk
